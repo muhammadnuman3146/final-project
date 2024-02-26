@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+
+
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+.nav ul li:hover {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px royalblue;
+}
+
+.nav h3 span {
+    font-size: 16px;
+}
+
+.image {
+    background-image: url(image/architect.jpg);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.image div h3 {
+    background-color: black;
+    color: white;
+
+}
+
+@media(max-width:600px) {
+    .image {
+        background-image: url(image/architect.jpg);
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image div h3 {
+        background-color: black;
+        color: white;
+
+    }
+
+}
+
+.row1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.row1 div {
+    width: 25%;
+    height: 200px;
+    margin: 2px;
+}
+
+.row11 {
+    background-image: url(image/house2.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row11 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row12 {
+    background-image: url(image/house3.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row12 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row13 {
+    background-image: url(image/house4.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row13 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row14 {
+    background-image: url(image/house5.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row14 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:769px) {
+    .row1 {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .row1 div {
+        width: 48%;
+        height: 200px;
+        margin: 1%;
+    }
+
+    .row11 {
+        background-image: url(image/house2.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row11 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row12 {
+        background-image: url(image/house3.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row12 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row13 {
+        background-image: url(image/house4.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row13 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row14 {
+        background-image: url(image/house5.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row14 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+}
+
+.row2 {
+    display: flex;
+    width: 100%;
+
+}
+
+.row2 div {
+    width: 25%;
+    height: 200px;
+    margin: 2px;
+}
+
+.row21 {
+    background-image: url(image/team1.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row21 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row22 {
+    background-image: url(image/team2.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row22 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row23 {
+    background-image: url(image/team3.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row23 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.row24 {
+    background-image: url(image/team4.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px 2px 0px 0px;
+
+}
+
+.row24 h6 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:769px) {
+    .row2 {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .row2 div {
+        width: 48%;
+        height: 200px;
+        margin: 1%;
+    }
+
+    .row21 {
+        background-image: url(image/team1.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row21 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row22 {
+        background-image: url(image/team2.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row22 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row23 {
+        background-image: url(image/team3.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row23 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+    .row24 {
+        background-image: url(image/team4.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 2px 0px 0px;
+
+    }
+
+    .row24 h6 {
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+
+
+}
+
+.card-footer {
+    color: black;
+    background-color: white;
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.card-footer button {
+    border: none;
+    background: transparent;
+}
+
+.card-footer button:hover {
+    color: white;
+    background-color: lightpink;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.container7{
+    width: 70%;
+    /* margin: 0 auto; */
+   
+}
+input{
+    width: 100%;
+}
+.btn{
+    background-color: black !important;
+    color: white !important;
+    margin-bottom: 10px;
+   
+}
+
+.container8{
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
