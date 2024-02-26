@@ -398,9 +398,10 @@
 
 
 .container7{
+    width: 100%; 
+}
+.container7 input{
     width: 100%;
-    /* margin: 0 auto; */
-   
 }
 input{
     width: 100%;
